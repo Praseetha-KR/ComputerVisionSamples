@@ -6,9 +6,12 @@ python:
 compiler:
     - gcc
 
+before_install:
+    - pip install nosetests
+
 install: true
 
-script: make test
+script: nosetests
 
 # before_install:
 #     - git clone https://github.com/Itseez/opencv.git
