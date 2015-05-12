@@ -6,6 +6,7 @@ python:
 compiler:
     - gcc
 
+install: true
 # before_install:
 #     - git clone https://github.com/Itseez/opencv.git
 #     - cd opencv
