@@ -6,15 +6,15 @@ python:
 compiler:
     - gcc
 
-before_install:
-    - git clone https://github.com/Itseez/opencv.git
-    - cd opencv
-    - mkdir build
-    - cd build
-    - cmake ..
-    - make -j8
-    - sudo make -j8 install
-    - cd ../..
+# before_install:
+#     - git clone https://github.com/Itseez/opencv.git
+#     - cd opencv
+#     - mkdir build
+#     - cd build
+#     - cmake ..
+#     - make -j8
+#     - sudo make -j8 install
+#     - cd ../..
 
-install:
-    - pip install numpy
+# install:
+#     - pip install numpy
