@@ -7,21 +7,19 @@ compiler:
     - gcc
 
 before_install:
+    - git clone https://github.com/Itseez/opencv.git
+    - cd opencv
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make -j8
+    - sudo make -j8 install
+    - cd ../..
+
+install:
+    - pip install numpy
+
+before_script:
     - pip install nose
 
-install: true
-
 script: nosetests
-
-# before_install:
-#     - git clone https://github.com/Itseez/opencv.git
-#     - cd opencv
-#     - mkdir build
-#     - cd build
-#     - cmake ..
-#     - make -j8
-#     - sudo make -j8 install
-#     - cd ../..
-
-# install:
-#     - pip install numpy
