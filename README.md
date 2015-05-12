@@ -1,3 +1,2 @@
 # ComputerVisionSamples
-
 OpenCV Exercise Files
