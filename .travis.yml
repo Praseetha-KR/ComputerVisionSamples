@@ -7,6 +7,9 @@ compiler:
     - gcc
 
 install: true
+
+script: make test
+
 # before_install:
 #     - git clone https://github.com/Itseez/opencv.git
 #     - cd opencv
