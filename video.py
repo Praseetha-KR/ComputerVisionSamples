@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('media/video.avi')
+cap = cv2.VideoCapture('media/video_test.avi')
 # video.avi copyrighted to http://www.mysticfractal.com/video/fractogene.avi
 
 while(cap.isOpened()):
