@@ -9,5 +9,3 @@ if k == 27:             # ESC key to exit
 elif k == ord('s'):     # 's' key to save & exit
     cv2.imwrite('media/gen_img_gray.png', img)
     cv2.destroyAllWindows()
-
-#test
